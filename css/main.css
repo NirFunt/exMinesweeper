@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: lightskyblue;
+    /* background-image: url("/img/explode4.png"); */
+    background-image: url("../img/explode4.png");
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+}
+
+.main-header {
+    position: relative;
+    left: 350px;
+    color:darkorange;
+    font-weight: bold;
+}
+
+table {
+    position: absolute;
+    left: 320px;
+}
+
+ tr, td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cover {
+  background-color: gray;  
+}
+
+td img {
+    width: 35px;
+    height: 35px;
+}
+
+div button {
+    background-color: red;
+    right: 200px;
+}
+
+div button:hover {
+    cursor: pointer;
+}
+
+.end-game {
+    margin-bottom: 20px;
+    height: 50px;
+}
+.end-game h1 {
+    color: rgb(rgb(178, 187, 57), green, blue);
+    display: none;
+    position: absolute;
+    left: 360px;
+    bottom: 680px;
+    color: gold;
+}
+
+.lives span {
+    color: red;
+    display: inline;
+    font-size: 25px;
+}
+
+
+.mark {
+    border: hotpink 4px solid ;
+}
+
+
+.all {
+    width: 800px;
+    height:180px;
+    /* background-color:lightgrey; */
+    margin-bottom: 20px;
+}
+
+.hint {
+background-color: gold;
+width: 60px;
+height: 50px;
+border-radius: 50%;
+color: purple;
+padding: 15px;
+font-weight: bold;
+display: inline;
+}
+
+.hint1 {
+  position: absolute;
+  left: 20px;
+  bottom: 830px;
+}
+.hint2 {
+  position: absolute;
+  left: 90px;
+  bottom: 830px;
+}
+.hint3 {
+    position: absolute;
+    left: 160px;
+    bottom: 830px;
+}
+
+.hint-hide {
+    display: none;
+}
+
+.safe-click {
+    height: 100px;
+    position: absolute;
+    left: 60px;
+    bottom: 720px;
+}
+
+.safe-amount {
+    position: absolute;
+    left: 153px;
+    bottom: 705px;
+    padding: 10px;
+    color: hotpink;
+    font-size: 40px;
+}
+
+.face {
+    width: 100px;
+    margin-left: 200px;
+    cursor: pointer;
+    position: absolute;
+    left: 170px;
+    bottom: 740px;
+}
+
+.lives {
+    display: inline;
+    width: 100px;
+    position: absolute;
+    left: 380px;
+    bottom:825px ;
+    color:red;
+    font-size: 25px;
+}
+
+.time-passed {
+    display: inline;
+    width: 30px;
+}
+
+.clock {
+    display: inline;
+    position: absolute;
+    left: 250px;
+    bottom: 800px;
+    color: lightsteelblue;
+    font-size: 20px;
+}
+
+.best-score-header {
+    display: inline;
+    width: 250px;
+    position: absolute;
+    left: 250px;
+    bottom: 750px;
+    color: gold;
+}
+
+.best-score {
+    display: inline;
+    width: 250px;
+    position: absolute;
+    left: 280px;
+    bottom: 720px;
+    color: gold;
+}
+
+
+.manual-Btn {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 650px;
+}
+
+.undo { 
+    position: absolute;
+    left: 750px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.seven-boom {
+    position: absolute;
+    left: 550px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color:brown;
+}
+
+
+.level4 {
+    position: absolute;
+    left: 550px;
+    bottom: 720px;
+    background-color:chartreuse;
+    border-radius: 20px;
+    height: 50px;
+    padding: 10px;
+}
+
+.level8 {
+    position: absolute;
+    left: 650px;
+    bottom: 720px;
+    background-color:purple;
+    border-radius: 20px;
+    height: 50px;
+    padding: 10px;
+}
+
+.level12 {
+    position: absolute;
+    left: 750px;
+    bottom: 720px;
+    background-color: red ;
+    border-radius: 20px;
+    height: 50px;
+    padding: 10px;
+}
