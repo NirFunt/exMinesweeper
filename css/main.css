@@ -9,19 +9,24 @@ body {
     background-repeat: no-repeat;
     /* background-position: center center; */
     /* background-attachment: fixed; */
-    /* background-size: cover; */
+    background-size: cover;
+    /* background-position: 500px; */
 }
 
 .main-header {
     position: relative;
-    left: 350px;
+    left: 48%;
+    bottom: 90%;
+    /* left: 40%px; */
     color:darkorange;
     font-weight: bold;
 }
 
 table {
-    position: absolute;
-    left: 320px;
+    position: fixed;
+    left: 45%;
+    bottom: 50%
+     /* left: 40%px; */
 }
 
  tr, td {
@@ -56,9 +61,9 @@ div button:hover {
 .end-game h1 {
     color: rgb(rgb(178, 187, 57), green, blue);
     display: none;
-    position: absolute;
-    left: 360px;
-    bottom: 680px;
+    position: fixed;
+    left: 48%;
+    bottom: 71%;
     color: gold;
 }
 
@@ -93,19 +98,19 @@ display: inline;
 }
 
 .hint1 {
-  position: absolute;
-  left: 20px;
-  bottom: 830px;
+  position: fixed;
+  left: 2%;
+  bottom: 88%;
 }
 .hint2 {
-  position: absolute;
-  left: 90px;
-  bottom: 830px;
+  position: fixed;
+  left: 10%;
+  bottom: 88%;
 }
 .hint3 {
-    position: absolute;
-    left: 160px;
-    bottom: 830px;
+    position: fixed;
+    left: 18%;
+    bottom: 88%;
 }
 
 .hint-hide {
@@ -114,15 +119,15 @@ display: inline;
 
 .safe-click {
     height: 100px;
-    position: absolute;
-    left: 60px;
-    bottom: 720px;
+    position: fixed;
+    left: 7%;
+    bottom: 76%;
 }
 
 .safe-amount {
-    position: absolute;
-    left: 153px;
-    bottom: 705px;
+    position: fixed;
+    left: 11.7%;
+    bottom: 75%;
     padding: 10px;
     color: hotpink;
     font-size: 40px;
@@ -132,19 +137,21 @@ display: inline;
     width: 100px;
     margin-left: 200px;
     cursor: pointer;
-    position: absolute;
-    left: 170px;
-    bottom: 740px;
+    position: fixed;
+    left: 38%;
+    bottom: 78%;
+     /* left: 40%px; */
 }
 
 .lives {
     display: inline;
     width: 100px;
-    position: absolute;
-    left: 380px;
-    bottom:825px ;
+    position: fixed;
+    left: 48%;
+    bottom:87% ;
     color:red;
     font-size: 25px;
+     /* left: 40%px; */
 }
 
 .time-passed {
@@ -154,9 +161,9 @@ display: inline;
 
 .clock {
     display: inline;
-    position: absolute;
-    left: 250px;
-    bottom: 800px;
+    position: fixed;
+    left: 43%;
+    bottom: 85%;
     color: lightsteelblue;
     font-size: 20px;
 }
@@ -164,18 +171,18 @@ display: inline;
 .best-score-header {
     display: inline;
     width: 250px;
-    position: absolute;
-    left: 250px;
-    bottom: 750px;
+    position: fixed;
+    left: 43%;
+    bottom: 80%;
     color: gold;
 }
 
 .best-score {
     display: inline;
     width: 250px;
-    position: absolute;
-    left: 280px;
-    bottom: 720px;
+    position: fixed;
+    left: 45%;
+    bottom: 77%;
     color: gold;
 }
 
@@ -184,13 +191,15 @@ display: inline;
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    position: absolute;
-    left: 650px;
+    position: fixed;
+    left: 77%;
+    bottom: 85%;
 }
 
 .undo { 
-    position: absolute;
-    left: 750px;
+    position: fixed;
+    left: 88%;
+    bottom: 85%;
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -198,8 +207,9 @@ display: inline;
 }
 
 .seven-boom {
-    position: absolute;
-    left: 550px;
+    position: fixed;
+    left: 65%;
+    bottom: 85%;
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -208,9 +218,9 @@ display: inline;
 
 
 .level4 {
-    position: absolute;
-    left: 550px;
-    bottom: 720px;
+    position: fixed;
+    left: 65%;
+    bottom: 77%;
     background-color:chartreuse;
     border-radius: 20px;
     height: 50px;
@@ -218,9 +228,9 @@ display: inline;
 }
 
 .level8 {
-    position: absolute;
-    left: 650px;
-    bottom: 720px;
+    position: fixed;
+    left: 77%;
+    bottom: 77%;
     background-color:purple;
     border-radius: 20px;
     height: 50px;
@@ -228,9 +238,9 @@ display: inline;
 }
 
 .level12 {
-    position: absolute;
-    left: 750px;
-    bottom: 720px;
+    position: fixed;
+    left: 88%;
+    bottom: 77%;
     background-color: red ;
     border-radius: 20px;
     height: 50px;
